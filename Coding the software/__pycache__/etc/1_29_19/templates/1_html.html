@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>ML API</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <div class = "login">
+            <form action = "{{ url_for('predict')}}"method="post">
+                <pre class="tab">
+
+                   Week1:  <input type="text" name="week1" id="w1" value=0>
+                   Week2:  <input type="text" name="week2" id="w2" value=0>
+                   Week3:  <input type="text" name="week3" id="w3" value=0>
+                   Week4:  <input type="text" name="week4" id="w4" value=0>
+                   Week5:  <input type="text" name="week5" id="w5" value=0>
+                   Week6:  <input type="text" name="week6" id="w6" value=0>
+                   Week7:  <input type="text" name="week7" id="w7" value=0>
+                   Week8:  <input type="text" name="week8" id="w8" value=0>
+                   Week9:  <input type="text" name="week9" id="w9" value=0>
+                  Week10:  <input type="text" name="week10" id="w10" value=0>
+                  Week11:  <input type="text" name="week11" id="w11" value=0>
+                  Week12:  <input type="text" name="week12" id="w12" value=0>
+                  Week13:  <input type="text" name="week13" id="w13" value=0>
+                  Week14:  <input type="text" name="week14" id="w14" value=0>
+                  Week15:  <input type="text" name="week15" id="w15" value=0>
+                  Week16:  <input type="text" name="week16" id="w16" value=0>
+                  Week17:  <input type="text" name="week17" id="w17" value=0>
+                  Week18:  <input type="text" name="week18" id="w18" value=0>
+                  Week19:  <input type="text" name="week19" id="w19" value=0>
+                  Week20:  <input type="text" name="week20" id="w20" value=0>
+                  Week21:  <input type="text" name="week21" id="w21" value=0>
+                  Week22:  <input type="text" name="week22" id="w22" value=0>
+                  Week23:  <input type="text" name="week23" id="w23" value=0>
+                  Week24:  <input type="text" name="week24" id="w24" value=0>
+                  Week25:  <input type="text" name="week25" id="w25" value=0>
+                  Week26:  <input type="text" name="week26" id="w26" value=0>
+                  Week27:  <input type="text" name="week27" id="w27" value=0>
+                  Week28:  <input type="text" name="week28" id="w28" value=0>
+                  Week29:  <input type="text" name="week29" id="w29" value=0>
+                  Week30:  <input type="text" name="week30" id="w30" value=0>
+                  Week31:  <input type="text" name="week31" id="w31" value=0>
+                  Week32:  <input type="text" name="week32" id="w32" value=0>
+                  Week33:  <input type="text" name="week33" id="w33" value=0>
+                  Week34:  <input type="text" name="week34" id="w34" value=0>
+                  Week35:  <input type="text" name="week35" id="w35" value=0>
+                  Week36:  <input type="text" name="week36" id="w36" value=0>
+                  Week37:  <input type="text" name="week37" id="w37" value=0>
+                  Week38:  <input type="text" name="week38" id="w38" value=0>
+                  Week39:  <input type="text" name="week39" id="w39" value=0>
+                  Week40:  <input type="text" name="week40" id="w40" value=0>
+                  Week41:  <input type="text" name="week41" id="w41" value=0>
+                  Week42:  <input type="text" name="week42" id="w42" value=0>
+                  Week43:  <input type="text" name="week43" id="w43" value=0>
+                  Week44:  <input type="text" name="week44" id="w44" value=0>
+                  Week45:  <input type="text" name="week45" id="w45" value=0>
+                  Week46:  <input type="text" name="week46" id="w46" value=0>
+                  Week47:  <input type="text" name="week47" id="w47" value=0>
+                  Week48:  <input type="text" name="week48" id="w48" value=0>
+                  Week49:  <input type="text" name="week49" id="w49" value=0>
+                  Week50:  <input type="text" name="week50" id="w50" value=0>
+                  Week51:  <input type="text" name="week51" id="w51" value=0>
+                  Week52:  <input type="text" name="week52" id="w52" value=0>
+                  Week53:  <input type="text" name="week53" id="w53" value=0>
+                  Week54:  <input type="text" name="week54" id="w54" value=0>
+                  Week55:  <input type="text" name="week55" id="w55" value=0>
+                  Week56:  <input type="text" name="week56" id="w56" value=0>
+                  Week57:  <input type="text" name="week57" id="w57" value=0>
+                  Week58:  <input type="text" name="week58" id="w58" value=0>
+                  Week59:  <input type="text" name="week59" id="w59" value=0>
+                  Week60:  <input type="text" name="week60" id="w60" value=0>
+                  Week61:  <input type="text" name="week61" id="w61" value=0>
+                  Week62:  <input type="text" name="week62" id="w62" value=0>
+                  Week63:  <input type="text" name="week63" id="w63" value=0>
+                  Week64:  <input type="text" name="week64" id="w64" value=0>
+                  Week65:  <input type="text" name="week65" id="w65" value=0>
+                  Week66:  <input type="text" name="week66" id="w66" value=0>
+                  Week67:  <input type="text" name="week67" id="w67" value=0>
+                  Week68:  <input type="text" name="week68" id="w68" value=0>
+                  Week69:  <input type="text" name="week69" id="w69" value=0>
+                  Week70:  <input type="text" name="week70" id="w70" value=0>
+                  Week71:  <input type="text" name="week71" id="w71" value=0>
+                  Week72:  <input type="text" name="week72" id="w72" value=0>
+                  Week73:  <input type="text" name="week73" id="w73" value=0>
+                  Week74:  <input type="text" name="week74" id="w74" value=0>
+                  Week75:  <input type="text" name="week75" id="w75" value=0>
+                  Week76:  <input type="text" name="week76" id="w76" value=0>
+                  Week77:  <input type="text" name="week77" id="w77" value=0>
+                  Week78:  <input type="text" name="week78" id="w78" value=0>
+                  Week79:  <input type="text" name="week79" id="w79" value=0>
+                  Week80:  <input type="text" name="week80" id="w80" value=0>
+
+
+                    <button type="submit" class="btn btn-primary btn-block btn-large">Predict</button>
+            </form>
+              {{prediction_text}}
+        </div>
+    </body>
+</html>
